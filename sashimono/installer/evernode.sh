@@ -14,7 +14,7 @@ if ! command -v curl &>/dev/null; then
 fi
 
 [ -z $VERSION ] && VERSION="latest"
-repository="https://api.github.com/repos/du1ana/evernode-resources/releases"
+repository="https://api.github.com/repos/sankhaBA/evernode-resources/releases"
 
 if [ "$VERSION" = "latest" ]; then
     release_data=$(curl -s "$repository/latest")
