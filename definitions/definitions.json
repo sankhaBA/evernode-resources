@@ -6,6 +6,12 @@
         "networkID": 21338,
         "minVersions": {
             "reputationD": "0.11.0"
+        },
+        "engine": {
+            "allowPrerelease": true,
+            "revoked": [],
+            "reputationVersion": null,
+            "legacyImageCutoff": null
         }
     },
     "devnet": {
@@ -15,6 +21,12 @@
         "networkID": 21338,
         "minVersions": {
             "reputationD": "0.12.0"
+        },
+        "engine": {
+            "allowPrerelease": true,
+            "revoked": [],
+            "reputationVersion": null,
+            "legacyImageCutoff": null
         }
     },
     "mainnet": {
@@ -24,6 +36,12 @@
         "networkID": 21337,
         "minVersions": {
             "reputationD": "0.11.0"
+        },
+        "engine": {
+            "allowPrerelease": false,
+            "revoked": [],
+            "reputationVersion": null,
+            "legacyImageCutoff": null
         }
     }
 }
